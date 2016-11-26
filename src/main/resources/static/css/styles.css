@@ -1,0 +1,34 @@
+body {
+    width:1300px;
+    margin: 0 auto;
+}
+
+#map {
+    margin: 5px;
+    width: 900px;
+    float: left;
+}
+
+#drone_list {
+    float: left;
+    width: 200px;
+}
+
+#buttons {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:blanchedalmond;
+}
+
+.list_item {
+    background: cornflowerblue;
+    height: 40px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.list_item:hover {
+    background: dodgerblue;
+}
