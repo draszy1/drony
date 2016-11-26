@@ -9,6 +9,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class PPoint {
-    double lat;
-    double lon;
+    String lat;
+    String lon;
 }

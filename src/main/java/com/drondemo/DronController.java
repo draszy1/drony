@@ -11,6 +11,6 @@ public class DronController {
 
     @RequestMapping("/getdrone")
     public Dron getdron() {
-        return new Dron("S555", new PPoint(-16, -22));
+        return new Dron("S555", new PPoint("-5e6", "-1e6"));
     }
 }
